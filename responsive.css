@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1140px) {
+    .ull{
+        flex-direction: column;
+
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    .navbar{
+        height: 310px;
+        position: relative;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .navbar::before{
+        background-color: transparent;
+        text-align: center;
+    }
+    .navbar ul li a{
+color:black;
+text-align: center;
+
+    }
+.right{
+    right: 0px;
+  
+}
+#home::before{
+    position: relative;
+    z-index: 1;
+    
+}
+.Spon{
+	height: 230px;
+	margin-top: 300px;
+	outline: none;
+	
+}
+.Spon h2{
+  
+    margin-bottom: 58px;
+}
+#cts{	
+height: 100px;
+width: 96%;
+}
+.t-item{
+	width: 23%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+}
+.boxm{
+    text-align: center;
+}
+.Mission{
+    height: 710px;
+}
+.buutton{
+    top: 1996px;
+}
+}
